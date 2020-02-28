@@ -1,9 +1,5 @@
 # Introducció
 
-## Requisits:
-* python3
-* pip3 install pyyaml
-* pip3 install jinja2
 
 
 Inclou scripts per crear nodes a la web de Guifi i extreure'n els paràmetres.
@@ -22,6 +18,10 @@ Comptam amb varis scripts:
 
 * printmodels.py: Mostra els id dels models de dispositiu disponibles
 
+## Requisits:
+* python3
+* pip3 install pyyaml
+* pip3 install jinja2
 
 # Scripts
 

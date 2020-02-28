@@ -1,10 +1,8 @@
 # Introducció
 
-
-
 Inclou scripts per crear nodes a la web de Guifi i extreure'n els paràmetres.
 
-El fitxer env inclou les credencials per a la web de Guifi.net
+El fitxer env inclou les credencials per a la API de la web de Guifi.net
 
 Comptam amb varis scripts:
 

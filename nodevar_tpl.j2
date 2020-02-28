@@ -1,0 +1,31 @@
+---
+main_wlan: {{ main_wlan }}
+pptp_username: {{ pptp_username }}
+pptp_password: {{ pptp_password }}
+radio_ssid: {{ ssid }}
+snmp_location: {{ location }}
+guifi_device_hostname: {{ dev_hostname }}
+guifi_node_number: {{ node_id }}
+host_ip: {{ dev_ip }}
+host_mask: {{ dev_mask }}
+host_gateway: {{ dev_gw }}
+ntpserver: 10.91.9.73
+dnsserverscsv: 10.91.9.73,10.91.9.62
+zenosshost: 10.91.9.77
+monitorhost: 8.8.8.8
+
+pptp_servers: 
+-
+   name: pptp-alq40
+   ext: 10.91.9.65
+   int: 192.168.65.1
+   lookup_ip: 81.19.96.148
+   weight: 5
+- 
+   name: pptp-as42
+   ext: 10.91.9.33
+   int: 192.168.33.1
+   lookup_ip: 158.227.98.15
+   weight: 10
+
+#other lookup_ip: 193.145.15.15, 213.251.52.234, 213.251.52.234, 81.19.96.148, 193.145.15.15, 158.227.98.15     
